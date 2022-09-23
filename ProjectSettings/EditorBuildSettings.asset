@@ -6,7 +6,37 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
+    path: Assets/Scenes/MainMenuScene.unity
+    guid: 1b957a02297ca6041ae7071999e44810
+  - enabled: 1
+    path: Assets/Scenes/MazeScene1.unity
+    guid: f847924cd01c59f40ae427b27fd72308
+  - enabled: 1
+    path: Assets/Scenes/MazeScene2.unity
+    guid: 8df262abf52ce024e9485a90bd7b4e02
+  - enabled: 1
+    path: Assets/Scenes/MazeScene3.unity
+    guid: 7df4ec421bfd80848bf819b94f6c881c
+  - enabled: 1
+    path: Assets/Scenes/MazeScene4.unity
+    guid: 1d1fd6cf821bf9940bfc0b8b7df231e5
+  - enabled: 1
+    path: Assets/Scenes/MazeScene5.unity
+    guid: cd64efa45f3c668409f1ee57970c1b23
+  - enabled: 1
+    path: Assets/Scenes/MazeScene6.unity
+    guid: 606c3e5c89ef03a4b9ad9c953790e326
+  - enabled: 1
+    path: Assets/Scenes/MazeScene7.unity
+    guid: d5d6902a8118d944bab0dd183c489151
+  - enabled: 1
+    path: Assets/Scenes/MazeScene8.unity
+    guid: 779c00ff6d090ba4e83ae139bd52d855
+  - enabled: 1
+    path: Assets/Scenes/MazeScene9.unity
+    guid: 26896dc15e520794695ac2fef89f03ba
+  - enabled: 1
+    path: Assets/Scenes/EndScene.unity
+    guid: 3fc8acdd13e6c734bafef6554d6fdbcd
   m_configObjects:
     com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000, guid: 5a3fdc42060186a47b0e656734f26883, type: 2}

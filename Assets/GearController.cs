@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GeraController : MonoBehaviour
+public class GearController : MonoBehaviour
 {
     public GameObject g1;
     public GameObject g2;
