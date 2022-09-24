@@ -6,15 +6,11 @@ using UnityEngine.SceneManagement;
 public class LevelLoader : MonoBehaviour
 {
     public Animator animator;
-    private int FIRST_SCENE_INDEX;
+    private int FIRST_SCENE_INDEX = 1;
     private const string ACTIVE_SCENE_INDEX_KEY = "activeSceneIndex";
     private const string START_TRIGGER_KEY = "Start";
-    private const string FIRST_SCENE_NAME = "MazeScene1";
 
-    public void Awake()
-    {
-        FIRST_SCENE_INDEX = SceneManager.GetSceneByName(FIRST_SCENE_NAME).buildIndex;
-    }
+   
     public void LoadNextLevel()
     {
         StartCoroutine(LoadLevelCoroutine(SceneManager.GetActiveScene().buildIndex + 1));
