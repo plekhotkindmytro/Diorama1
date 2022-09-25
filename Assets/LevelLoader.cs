@@ -10,9 +10,11 @@ public class LevelLoader : MonoBehaviour
     private const string ACTIVE_SCENE_INDEX_KEY = "activeSceneIndex";
     private const string START_TRIGGER_KEY = "Start";
 
-   
+    [SerializeField] InterstitialAd interstitialAd;
+
     public void LoadNextLevel()
     {
+        interstitialAd.ShowAd();
         StartCoroutine(LoadLevelCoroutine(SceneManager.GetActiveScene().buildIndex + 1));
 
     }

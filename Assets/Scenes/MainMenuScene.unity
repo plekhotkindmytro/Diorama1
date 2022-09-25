@@ -334,6 +334,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: LevelLoader
       objectReference: {fileID: 0}
+    - target: {fileID: 989900392035051708, guid: 3a7509439dc0cf446a60abb8b8946620, type: 3}
+      propertyPath: interstitialAd
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 989900392035051709, guid: 3a7509439dc0cf446a60abb8b8946620, type: 3}
       propertyPath: m_RootOrder
       value: 3
