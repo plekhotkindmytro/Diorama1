@@ -233,6 +233,23 @@
       },
       "url": "https://packages.unity.com"
     },
+    "com.unity.services.mediation": {
+      "version": "file:C:/Users/Dmytro/Downloads/98231542a8b0e65db4a115744545fdbf17d77371.tgz",
+      "depth": 0,
+      "source": "local-tarball",
+      "dependencies": {
+        "com.unity.settings-manager": "1.0.3",
+        "com.unity.modules.ui": "1.0.0",
+        "com.unity.services.core": "1.4.0"
+      }
+    },
+    "com.unity.settings-manager": {
+      "version": "1.0.3",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://packages.unity.com"
+    },
     "com.unity.subsystemregistration": {
       "version": "1.1.0",
       "depth": 2,

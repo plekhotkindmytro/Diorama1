@@ -13,10 +13,7 @@ public class BallController : MonoBehaviour
         {
             foreach (Touch touch in Input.touches)
             {
-                if (touch.phase == TouchPhase.Began)
-                {
-                    CheckClickAndDoAction(touch.position);
-                }
+                CheckClickAndDoAction(touch.position);
             }
         } else
 

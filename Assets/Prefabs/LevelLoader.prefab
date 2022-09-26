@@ -259,7 +259,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 5948570197263612408}
-  interstitialAd: {fileID: 0}
+  interstitialAd: {fileID: 4885776452564125766}
 --- !u!1 &4408438271791348779
 GameObject:
   m_ObjectHideFlags: 0
